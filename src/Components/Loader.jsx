@@ -1,9 +1,11 @@
 
 import React from 'react';
+import BotAvatar from './BotAvatar';
 
 const Loader = () => {
   return (
     <div className='chatbot-loader-container'>
+      <BotAvatar />
       <svg
         id='dots'
         width='50px'
