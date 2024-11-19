@@ -3,8 +3,6 @@
 
 let development_apigee_const = {
   token_endpoint: 'https://apis-dev.intel.com/v1/auth/token',
-  id: 'd36a38f9-f7ff-4052-9660-9d1dd493c297',
-  ids: 'ca978d18-f422-471d-a7d0-d069282f76e8',
   //secret: process.env.REACT_APP_APIGEE_DEV_SECRET,
   secret:  import.meta.env.VITE_APP_APIGEE_DEV_SECRET,
 //   proxy: {
@@ -16,8 +14,6 @@ let development_apigee_const = {
 
 let production_apigee_const = {
   token_endpoint: 'https://apis-dev.intel.com/v1/auth/token',
-  idd: '8hLAWUL6VYCJr8Si8sc7vYVqPeqnzy70',
-  id: 'ca978d18-f422-471d-a7d0-d069282f76e8',
   //secret: process.env.REACT_APP_APIGEE_DEV_SECRET,
   secret:  import.meta.env.VITE_APP_APIGEE_DEV_SECRET,
 //   proxy: {
