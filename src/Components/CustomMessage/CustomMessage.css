@@ -1,0 +1,16 @@
+
+table {
+    border-spacing: 5px;
+}
+td {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+th {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ddd;
+}

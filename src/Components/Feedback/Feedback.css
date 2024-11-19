@@ -1,4 +1,9 @@
 
+.chatbot-max .react-chatbot-kit-chat-container .feedback-buttons {
+    margin-left: calc(15% + 55px);
+    font-size: 0.85rem;
+}
+
 .feedback-buttons {
     margin-left: 55px;
     font-size: 0.85rem;

@@ -5,6 +5,7 @@ import BotAvatar from "../Components/BotAvatar";
 import Options from "../Components/Options/Options";
 import Feedback from "../Components/Feedback/Feedback";
 import CustomSendButton from "../Components/CustomSendButton/CustomSendButton";
+import CustomMessage from "../Components/CustomMessage/CustomMessage";
 import InitialMessage from "../Components/InitialMessage/InitialMessage";
 import FormButtons from "../Components/FormButtons/FormButtons";
 import Loader from "../Components/Loader";
@@ -41,7 +42,11 @@ const config = {
   customMessages: {
     custom: (props) => <InitialMessage {...props} />,
     formButtons: (props) => <FormButtons {...props} />,
-    loader: (props) => <Loader {...props} />
+    loader: (props) => <Loader {...props} />,
+    // message: (props) => <CustomMessage {...props} />,
+    message: (props) => {
+      return <CustomMessage {...props} message={props.state.messages.find(msg => (msg.payload === props.payload))}/>
+    },
   },
 
 };
