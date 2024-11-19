@@ -8,19 +8,12 @@ import ActionProvider from "./Chatbot/ActionProvider";
 import ChatbotButton from "./Components/ChatbotButton";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
-//require('dotenv').config({ path: '../.env' })
-//require('dotenv').config();
-
-
 function App() {
 
 
 
   return (
-    // <div className="App">
-    //     <ChatbotButton isToggled={false} />
-    //   </div>
+
 
 <BrowserRouter>
 <Routes>

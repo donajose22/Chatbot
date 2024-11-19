@@ -3,7 +3,6 @@
 
 let development_apigee_const = {
   token_endpoint: 'https://apis-dev.intel.com/v1/auth/token',
-  //secret: process.env.REACT_APP_APIGEE_DEV_SECRET,
   secret:  import.meta.env.VITE_APP_APIGEE_DEV_SECRET,
 //   proxy: {
 //     protocol: 'http',
@@ -14,7 +13,6 @@ let development_apigee_const = {
 
 let production_apigee_const = {
   token_endpoint: 'https://apis-dev.intel.com/v1/auth/token',
-  //secret: process.env.REACT_APP_APIGEE_DEV_SECRET,
   secret:  import.meta.env.VITE_APP_APIGEE_DEV_SECRET,
 //   proxy: {
 //     protocol: 'http',
