@@ -3,14 +3,54 @@ table {
     border-spacing: 5px;
 }
 td {
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
     border-radius: 5px;
     padding: 5px;
 }
 th {
-    border: 1px solid #ddd;
+    border: 1px solid #b6b6b6;
     border-radius: 5px;
     padding: 5px;
-    background-color: #ddd;
+    background-color: #b6b6b6;
 }
+.query-collapsible {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    /* background-color: #d8d6d6; */
+    background-color: #6f8596;
+    /* color: #031275; */
+    color: white;
+    border-radius: 5px 5px 0 0;
+    font-size: 20px;
+    padding: 0;
+    padding-left: 20px;
+  }
+
+  .query-collapsible:focus {
+    outline: none;
+  }
+
+  .plusminus {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 0px;
+  }
+  
+  .sql-query-content {
+    padding: 15px;
+    /* margin: 0 0 10px 0;  */
+    display: none;
+    overflow: hidden;
+    /* background-color: #f1f1f1; */
+    background-color: #e4f2fc;
+    border-radius: 0 0 5px 5px;
+  }
+
+  

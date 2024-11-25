@@ -16,9 +16,6 @@ class MessageParser {
 
       else if(message==="menu")
       {
-        // this.state.messages.push(message)
-        // console.log("mesage parser", this.state.messages);
-        // this.actionProvider.mainMenuHandler(this.state.messages);
         this.actionProvider.mainMenuHandler(message);
       }
       else 

@@ -37,9 +37,7 @@ const ChatbotButton = ({ isToggled, isMaximizedChatbot }) => {
   };
 
   const maximizeChatbot = () => {
-    // setIsMaximized(!isMaximized);
     setIsMaximized(true);
-    // console.log(isMaximized);
   };
 
   const validator = (input) => {
@@ -58,7 +56,7 @@ const ChatbotButton = ({ isToggled, isMaximizedChatbot }) => {
               <div className='chatbot-icon-open-button'><IoClose></IoClose></div>
             )}
             {!isOpen && (
-              <img src="https://c0avaamo.s3-us-west-2.amazonaws.com/dashboard/bots/avatars/000/074/205/medium/Group_33.png?1708487017" className='chatbot-icon' />
+              <img src="src/assets/AskEIPLogo.png" className='chatbot-icon' />
             )}
           </button>
 

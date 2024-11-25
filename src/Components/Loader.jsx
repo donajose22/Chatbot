@@ -6,6 +6,7 @@ const Loader = () => {
   return (
     <div className='chatbot-loader-container'>
       <BotAvatar />
+      
       <svg
         id='dots'
         width='50px'

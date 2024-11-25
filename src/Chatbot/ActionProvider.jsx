@@ -70,7 +70,9 @@ class ActionProvider {
     this.addMessageToState(loader);
     let results = await fetch("http://127.0.0.1:5000/generate/"+message);
     const response = await results.json();
-    console.log(response);
+    // console.log("ANSWERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR");
+    // console.log(response.response);
+    
     // let res = response.split("\n");
     // console.log(res);
     // const message2 = this.createCustomMessage("Test","message",
@@ -78,7 +80,10 @@ class ActionProvider {
     //     widget: 'feedback',
     //   });
 
-    const message2 = this.createCustomMessage(response, 'message', {payload: response} )
+    const message2 = this.createCustomMessage(response, 'message', {payload: response} ,
+      {
+      widget: 'feedback',
+      });
 
     // const message2 = this.createChatBotMessage(response,
     //   {

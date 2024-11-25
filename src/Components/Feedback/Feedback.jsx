@@ -19,7 +19,6 @@ const Feedback = () => {
     <div className='feedback-buttons'>
       <span className='feedback-text'>Was this helpful?</span>  
 
-
       {isThumbsUp=="none" && (
         <>
         <button className='thumbs-up' onClick={setThumbsUp}><FaRegThumbsUp /></button>

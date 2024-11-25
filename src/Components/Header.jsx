@@ -7,7 +7,7 @@ import MinimizeButton from './MinimizeButton';
 const Header = () => {
   return (
     <div className="react-chatbot-kit-chat-header">
-      Ask DMS
+      Ask EIP
     </div>
   )
 }

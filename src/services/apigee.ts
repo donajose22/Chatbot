@@ -2,9 +2,11 @@ import { Buffer } from 'buffer';
 import apigee_constants from '../const/apigee.consts';
 let cached_token: string | null = null;
 let expiry_time: string | null = null;
+
 export const apigeeTokenGeneration = async () => {
   // const cached_token = sessionStorage.getItem("apigee_access_token")
   // const expiry_time = sessionStorage.getItem("apigee_access_token_expiry_time")
+  
   if (expiry_time != null) {
     if (parseInt(Buffer.from(expiry_time, 'base64').toString()) > Math.floor(Date.now() / 1000)) {
       console.log('Cached Token');

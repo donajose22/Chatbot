@@ -1,6 +1,5 @@
 //let env = process.env.REACT_APP_ENV || 'development'; //CHANGE REACT_APP_ENV TO PRODUCTION WHEN USING PRODUCTION
 
-
 let development_apigee_const = {
   token_endpoint: 'https://apis-dev.intel.com/v1/auth/token',
   secret:  import.meta.env.VITE_APP_APIGEE_DEV_SECRET,
