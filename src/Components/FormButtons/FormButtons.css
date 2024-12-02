@@ -6,8 +6,11 @@
     position: fixed;
     right: 25px;
     bottom: 90px;
-    background-color: #fff;
-    border: solid 1px #d8d8d8;
+    /* background-color: #fff; */
+    /* border: solid 1px #d8d8d8; */
+    background-color: #293344;
+    border: solid 1px #293344;
+    border-top: solid 1px #d8d8d8;
     display: flex; 
   justify-content: center; 
   align-items: center;
@@ -24,15 +27,16 @@
     height: fit-content;
     padding: 6px;
     margin: 4px;
-    color: #157acc;
-    background-color: #E9E9E9;
+    /* color: #157acc;
+    background-color: #E9E9E9; */
+    color: white;
+    background-color: #525d73;
     font-weight: normal;
     font-size: 0.9rem;
     max-height: 40px;
 }
 
 .react-chatbot-kit-chat-input-buttons button:hover {
-
     color: #fff;
     background-color: #0d86de;
 }
@@ -44,8 +48,12 @@
     position: fixed;
     left: 15%;
     top: calc(100% - 4em);
-    background-color: #fff;
-    border: solid 1px #d8d8d8;
+    /* background-color: #fff; */
+    /* background-color: #d8d8d8; */
+    background-color: #293344;
+    /* border: solid 1px #d8d8d8; */
+    border: solid 1px #293344;
+    border-top: solid 1px #d8d8d8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,9 +70,30 @@
     height: 100%;
     padding: 6px;
     margin: 4px;
-    color: #157acc;
-    background-color: #E9E9E9;
+    /* color: #157acc; */
+    color: white;
+    /* background-color: #E9E9E9; */
+    background-color: #525d73;
     font-weight: normal;
     font-size: 0.9rem;
     max-height: 40px;
+}
+
+.chatbot-max  .react-chatbot-kit-chat-input-buttons button:hover {
+    width: 46%;
+    height: fit-content;
+    height: 100%;
+    padding: 6px;
+    margin: 4px;
+    /* color: #157acc; */
+    color: black;
+    /* background-color: #E9E9E9; */
+    background-color: #525d73;
+    font-weight: normal;
+    font-size: 0.9rem;
+    max-height: 40px;
+}
+
+.chatbot-max  .react-chatbot-kit-chat-input-buttons button:focus {
+    outline: none;
 }

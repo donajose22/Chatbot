@@ -71,10 +71,8 @@ class ActionProvider {
     let results = await fetch("http://127.0.0.1:5000/generate/"+message);
     const response = await results.json();
 
-    const message2 = this.createCustomMessage(response, 'message', {payload: response} ,
-      {
-      widget: 'feedback',
-      });
+    const message2 = this.createCustomMessage(response, 'message', {payload: response});
+    message2.widget='feedback';
 
     this.replacePrevMessage(message2);
    }
